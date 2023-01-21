@@ -1,19 +1,28 @@
 
-#Credit-Card-Default-Analysis
+# Credit-Card-Default-Prediction 💳
 
-## Problem Description​
+## 🪄 About:
+This is an End-to-End Machine Learning project with deployment. The project aims at developing a model and predicting the Credit card Defaulter based on his past 6 months transaction information.
 
-This project is aimed at predicting the case of customers default payments in Taiwan. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients. We can use the K-S chart to evaluate which customers will default on their credit card payments​
+## 🏋🏻‍♂️ Motivation: 
+As we are seeing with the growing number of credit card users, banks & credit card companies are facing an increase in credit card default rate. This increase in defaults creates much impact to the financial companies along with the cardholders and pulls them to losses. As such, data analytics can provide solutions to manage the current phenomenon and management of credit defaults. This project discusses the implementation of a model which predicts if a given credit card holder has a probability of defaulting in the following month, using their demographic data like (age, gender, marital status) and behavioural data from the past 6 months
 
-## Key Findings from EDA
+## 📈 DataSet:
+In the dataset we have 25 columns which reflect various attributes of the customer. The target column is default.payment.next.month which tells whether a person will default or not. In this dataset, we have information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card holders from April 2005 to September 2005.
 
-1.Males have more delayed payment than females in this dataset. Keep in mind that this finding only applies to this dataset, it does not imply this is true for other datasets.
-2.Customers with higher education have less default payments and higher credit limits.
-3.Customers aged between 30-50 have the lowest delayed payment rate, while younger groups (20-30) and older groups (50-70) all have higher delayed payment rates. However, the delayed rate drops slightly again in customers older than 70.
-4.There appears to be no correlation between default payment and marital status.
-5.Customers being inactive doesn’t mean they have no default risk. We found 317 out of 870 inactive customers who had no consumption in 6 months then defaulted next month.
+## 📒 Project content:
+* Steps Performed:
+*   Data Ingestion
+*   EDA
+*   Feature Engineering
+*   Feature Selection
+*   Sampling
+*   Model Training
+*   Model recommendation using ROC-AUC curve
 
-## MODEL BUILDING​
+
 
 # CONCLUSION
-To identify the default payment of credit card clients of huge data sets data analysis should be involved. Data analysis allows cultivation and learning based on model build, feature extraction, and various conditions that can improve the trait of customer acquirement. The four machine learning techniques mentioned can analysis the huge data set and to provide the accurate result. The boosting techniques which are included here can perform analysis for imbalanced dataset. By using Predictive analysis model for estimating the default payment and loss of extend and for predicting losses. In this paper, Machine learning technique like Logistic regression, XGBoost, SVC and Random forest were used to detect the fraud in credit card system. Sensitivity, Specificity, accuracy and error rate are used to evaluate the performance for the proposed system. The accuracy for logistic regression, XGBoost, SVC and random forest classifier are 79%,86%,82% and 86% respectively. By comparing all the three method, found that random forest classifier is better than the logistic regression and decision tree. XGBoost provided us the best results giving us a recall of 85% percent(meaning out of 100 defaulters 85 will be correctly caught by XGBoost).
+* In this paper, Machine learning technique like Logistic regression, XGBoost, SVC and Random forest were used to detect the fraud in credit card system. 
+* Sensitivity, Specificity, accuracy and error rate are used to evaluate the performance for the proposed system. The accuracy for logistic regression, XGBoost, SVC and random forest classifier are 79%,86%,82% and 86% respectively. 
+* By comparing all the three method, found that random forest classifier is better than the logistic regression and decision tree. XGBoost provided us the best results giving us a recall of 85% percent(meaning out of 100 defaulters 85 will be correctly caught by XGBoost).
