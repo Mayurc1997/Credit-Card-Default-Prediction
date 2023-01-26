@@ -11,7 +11,7 @@ As we are seeing with the growing number of credit card users, banks & credit ca
 In the dataset we have 25 columns which reflect various attributes of the customer. The target column is default.payment.next.month which tells whether a person will default or not. In this dataset, we have information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card holders from April 2005 to September 2005.
 
 ## 📒 Project content:
-* Steps Performed:
+ Steps Performed:
 *   Data Ingestion
 *   EDA
 *   Feature Engineering
